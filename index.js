@@ -5,8 +5,6 @@ function fizzbuzz (x) {
 }
 module.exports = fizzbuzz;
 
-// function basicCalculator() {}
-
 // function powerCalculator() {}
 
 // function squareCalculator() {}
