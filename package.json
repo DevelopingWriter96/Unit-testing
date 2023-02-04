@@ -1,0 +1,22 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "unit testing npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevelopingWriter96/Unit-testing.git"
+  },
+  "author": "Richard Stacey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevelopingWriter96/Unit-testing/issues"
+  },
+  "homepage": "https://github.com/DevelopingWriter96/Unit-testing#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
