@@ -5,6 +5,7 @@ const quotient= require('./index');
 const difference = require('./index');
 const capitalize = require('./index');
 const noVowels = require('./index');
+const validate = require('./validate');
 
 test('test fizzbuzz text', () => {
     expect(fizzbuzz(1)).toBe("");
@@ -33,6 +34,10 @@ test('square', () => {
     expect(square(3)).toBe(9);
 })
 
+test('power', () => {
+    except(power(3, 3)).toBe(27);
+})
+
 test('reduceNum', () => {
     expect(reduceNum([1, 2, 3])).toBe(6);
 })
@@ -43,4 +48,12 @@ test('noVowels', () => {
 
 test('capitalize', () => {
     except(capitalize("hello")).toBe("Hello");
+})
+
+test('reverse', () => {
+    except(reverse("hello").toBe("olleh"))
+})
+
+test('validate', () => {
+    except(validate("Name").toBe(True))
 })
