@@ -1,29 +1,61 @@
-function fizzbuzz (x) {
-    // if (a % 3 = 0) {
-
-    // }
+function fizzbuzz (num1) {
+    if (num1 % 3 === 0) {
+            if (num1 % 5 === 0) {
+                return "fizzbuzz" 
+            } else {
+                return "fizz"
+            }
+    } else if (num1 % 5 ===0) {
+        return "buzz"
+    } else {
+        return ""
+    }
 }
-module.exports = fizzbuzz;
 
-// function powerCalculator() {}
+function quotient(c, d) {
+    return c/d
+}
 
-// function squareCalculator() {}
 
-// function reverse() {}
+function square(x) {
+    return Math.pow(x, 2)
+}
 
-// function upperCase() {}
 
-// function noVowels() {}
+function power(x, y) {
+    return Math.pow(x, y)
+}
 
-function sum(a, b) {
-    let answer = a + b;
-    return answer
+
+function product(z, a) {
+    return z * a;
+}
+
+
+function difference(c, d) {
+    return c - d;
+}
+
+
+function reverse(string) {
+
+}
+
+
+function reduceNum(array) {
+    return array.reduce()
+}
+
+function noVowels() {
+
+}
+
+function capitalize() {
+
+}
+
+
+function sum(x, y) {
+    return x + y
   }
-module.exports = sum;
-
-function product(c, d) {
-    return c * d;
-}
-module.exports = product;
-
-sum(1, 2);
+module.exports = {sum, fizzbuzz, square, power, product, difference, reverse, reduceNum, quotient, noVowels, capitalize};
