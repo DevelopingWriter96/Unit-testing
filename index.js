@@ -38,20 +38,24 @@ function difference(c, d) {
 
 
 function reverse(string) {
-
+    let split = string.split("")
+    let reverse = split.reverse()
+    let join = reverse.join("")
+    return join
 }
 
 
 function reduceNum(array) {
-    return array.reduce()
+    return array.reduce((prev, curr) => prev + curr, 0)
 }
 
-function noVowels() {
-
+function noVowels(word) {
+   let join = word.replace(/[aeiou]/gi, '');
+   return join
 }
 
-function capitalize() {
-
+function capitalize(word) {
+    return word.charAt(0).toUpperCase() + word.slice(1)
 }
 
 
